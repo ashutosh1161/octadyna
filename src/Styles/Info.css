@@ -1,0 +1,122 @@
+.services-section {
+  background: #13070B;
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 48px;
+  color: #22D3EE;
+  margin-bottom: 60px;
+}
+
+.services-line {
+  height: 2px;
+  background: rgba(255,255,255,0.2);
+  margin: 40px auto 80px auto;
+  width: 80%;
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  width: 22%;
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 30px;
+  color: #22D3EE;
+  margin-bottom: 20px;
+}
+
+.service h4 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.service p {
+  color: #D1D5DB;
+  font-size: 15px;
+}
+
+.service-icon {
+  font-size: 30px;
+  color: #22D3EE;
+  background: rgba(34,211,238,0.1);
+  padding: 18px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.service:hover .service-icon {
+  transform: scale(1.15);
+  box-shadow: 0 0 20px rgba(34,211,238,0.6);
+}
+
+.service {
+  transition: 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-8px);
+}
+
+.services-title {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.services-line {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.4),
+    transparent
+  );
+}
+
+.services-section {
+  padding: 40px 80px 40px 40px;
+}
+
+.services-section {
+  background: radial-gradient(
+    circle at center,
+    rgba(34,211,238,0.08),
+    #13070B 60%
+  );
+}
+
+.approach-section {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.approach-section h3 {
+  font-size: 32px;
+  color: #22D3EE;
+  margin-bottom: 20px;
+}
+
+.approach-section p {
+  max-width: 600px;
+  margin: auto;
+  color: #D1D5DB;
+}
+
+.approach-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.approach-steps div {
+  width: 30%;
+}

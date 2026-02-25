@@ -1,0 +1,58 @@
+.about-section {
+  background: #13070B;
+  padding: 120px 80px;
+}
+
+.about-content {
+  max-width: 800px;
+}
+
+.about-title {
+  font-size: 48px;
+  color: #22D3EE;
+  margin-bottom: 30px;
+}
+
+.about-description {
+  color: #D1D5DB;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-subtitle {
+  margin-top: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.about-values {
+  margin-top: 30px;
+  display: grid;
+  gap: 12px;
+  color: #22D3EE;
+}
+
+.philosophy-title {
+  margin-top: 60px;
+  color: white;
+  font-size: 28px;
+}
+
+.philosophy-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.philosophy-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #22D3EE;
+  font-size: 18px;
+}
+
+.philosophy-icon {
+  font-size: 18px;
+}

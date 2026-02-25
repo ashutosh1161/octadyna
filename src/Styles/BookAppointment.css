@@ -1,0 +1,76 @@
+.ba-section {
+  padding: 120px 20px;
+  background: #13070B;
+  text-align: center;
+}
+
+/* TITLE */
+.ba-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #22D3EE;
+  margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.ba-description {
+  max-width: 800px;
+  margin: auto;
+  color: #D1D5DB;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* GRID */
+.ba-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CHECK ITEMS */
+.ba-checks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.ba-checks svg {
+  color: #22D3EE;
+}
+
+/* BUTTON */
+.ba-btn {
+  margin-top: 60px;
+  padding: 18px 36px;
+  border-radius: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, #7C3AED, #22D3EE);
+  transition: 0.3s;
+}
+
+.ba-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(34, 211, 238, 0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .ba-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ba-title {
+    font-size: 36px;
+  }
+}

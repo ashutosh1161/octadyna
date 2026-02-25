@@ -1,0 +1,92 @@
+/* =========================
+   CLIENTS SECTION
+========================= */
+
+.clients-section {
+    padding: 100px 32px;
+    background: linear-gradient(180deg, #13070B, #0b0f1c);
+    text-align: center;
+}
+
+/* TITLE */
+
+.clients-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #22D3EE;
+    margin-bottom: 20px;
+}
+
+.clients-description {
+    max-width: 800px;
+    margin: auto;
+    color: #9ca3af;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 70px;
+}
+
+/* =========================
+   LOGO GRID
+========================= */
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 50px;
+    justify-items: center;
+}
+
+/* CENTER LAST ROW (when only 2 items left) */
+.clients-grid .client-logo:nth-last-child(2) {
+    grid-column: 2 / 3;
+}
+
+.clients-grid .client-logo:nth-last-child(1) {
+    grid-column: 4 / 5;
+}
+
+/* LOGO CARD */
+
+.client-logo {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    padding: 30px;
+    border-radius: 14px;
+    transition: all 0.35s ease;
+    backdrop-filter: blur(6px);
+}
+
+/* LOGO IMAGE */
+
+.client-logo img {
+    width: 130px;
+    height: auto;
+    margin: auto;
+    display: block;
+    filter: grayscale(100%) brightness(0.8);
+    transition: all 0.35s ease;
+}
+
+/* HOVER EFFECT */
+
+.client-logo:hover {
+    transform: translateY(-8px);
+    border-color: #22D3EE;
+    box-shadow: 0 0 25px rgba(34, 211, 238, 0.25);
+}
+
+.client-logo:hover img {
+    filter: grayscale(0%) brightness(1);
+    transform: scale(1.08);
+}
